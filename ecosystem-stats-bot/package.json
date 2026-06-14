@@ -1,0 +1,14 @@
+{
+  "name": "owockibot-ecosystem-stats",
+  "version": "1.0.0",
+  "description": "Weekly Ecosystem Stats Twitter Bot for owockibot",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "post": "node post.js",
+    "sample": "node generate.js --sample"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.17.0"
+  }
+}
